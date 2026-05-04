@@ -75,7 +75,7 @@ export default function Header() {
           ))}
 
           {/* Status indicator */}
-          <div className="flex flex-col items-center gap-0.5 px-3 py-1.5 text-[11px] font-medium text-muted-foreground cursor-default">
+          {/* <div className="flex flex-col items-center gap-0.5 px-3 py-1.5 text-[11px] font-medium text-muted-foreground cursor-default">
             <div className="relative">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
@@ -86,7 +86,7 @@ export default function Header() {
               <span className="absolute top-0.5 right-0.5 w-2 h-2 bg-green-500 rounded-full border-2 border-card" />
             </div>
             <span>Status</span>
-          </div>
+          </div> */}
         </div>
 
         {/* CTA Button */}

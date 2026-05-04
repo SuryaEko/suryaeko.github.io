@@ -42,21 +42,21 @@ export default function About() {
         {/* Profile + Bio Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <motion.div
-            className="card-neo p-6 bg-primary border-primary text-primary-foreground sm:col-span-1"
+            className="p-6 rounded-xl border-2 shadow-[4px_4px_0px_0px_var(--border-neo)] sm:col-span-1 bg-primary border-primary text-primary-foreground"
             initial={{ x: -20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.4, delay: 0.15 }}
           >
             <div className="w-20 h-20 rounded-full bg-white/20 border-2 border-white/40 flex items-center justify-center text-white font-bold text-3xl mx-auto">
-              {profile?.name?.charAt(0) ?? "S"}
+              {"SE"}
             </div>
-            <h3 className="mt-4 text-center font-bold text-[18px]">
+            <h3 className="mt-4 text-center font-bold text-[18px] text-primary-foreground">
               {profile?.name ?? "Surya Eko Indrawan"}
             </h3>
-            <p className="text-center text-[14px] opacity-90">
+            <p className="text-center text-[14px] text-primary-foreground/80">
               {profile?.role ?? "Full-stack Developer"}
             </p>
-            <p className="text-center text-[13px] opacity-75 mt-1 flex items-center justify-center gap-1">
+            <p className="text-center text-[13px] text-primary-foreground/60 mt-1 flex items-center justify-center gap-1">
               <svg
                 width="14"
                 height="14"
@@ -86,12 +86,12 @@ export default function About() {
             </p>
             <div className="mt-4 flex gap-2 flex-wrap">
               {profile?.open_to_work && (
-                <span className="badge-skill text-green-700 border-green-600 bg-green-50 text-[13px]">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-1.5" />
+                <span className="text-[13px] inline-flex items-center px-4 py-1 rounded-full font-medium border-2 bg-emerald-100 border-emerald-600 text-emerald-800 dark:bg-emerald-900/40 dark:border-emerald-500 dark:text-emerald-300">
+                  <span className="w-2 h-2 bg-emerald-500 rounded-full mr-1.5 dark:bg-emerald-400" />
                   Open to Work
                 </span>
               )}
-              <span className="badge-skill text-primary border-primary bg-accent text-[13px]">
+              <span className="text-[13px] inline-flex items-center px-4 py-1 rounded-full font-medium border-2 bg-accent border-primary text-accent-foreground">
                 Fullstack
               </span>
             </div>

@@ -68,8 +68,8 @@ export default function Home() {
           </div>
           <div className="mt-5 flex gap-3 flex-wrap">
             {profile?.open_to_work && (
-              <span className="badge-skill text-green-700 border-green-600 bg-green-50 text-[13px]">
-                <span className="w-2 h-2 bg-green-500 rounded-full mr-1.5" />
+              <span className="text-[13px] inline-flex items-center px-4 py-1 rounded-full font-medium border-2 bg-emerald-100 border-emerald-600 text-emerald-800 dark:bg-emerald-900/40 dark:border-emerald-500 dark:text-emerald-300">
+                <span className="w-2 h-2 bg-emerald-500 rounded-full mr-1.5 dark:bg-emerald-400" />
                 Open to Work
               </span>
             )}

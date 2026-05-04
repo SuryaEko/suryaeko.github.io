@@ -32,3 +32,5 @@ dist-ssr
 
 # Document
 .documents
+.vercel
+.env*.local

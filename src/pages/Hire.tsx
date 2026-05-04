@@ -170,7 +170,7 @@ export default function Hire() {
         <h2 className="text-xl font-bold text-foreground">Siap Memulai Proyek Anda?</h2>
         <p className="mt-2 text-[14px] text-muted-foreground">Hubungi saya melalui email atau LinkedIn.</p>
         <div className="mt-5 flex gap-3 justify-center flex-wrap">
-          <a href="mailto:suryaeko.indrawan@gmail.com" className="btn-neo btn-neo-primary px-5 py-2.5 rounded-lg text-[14px]">
+          <a href="mailto:suryaekoindrawan@gmail.com" className="btn-neo btn-neo-primary px-5 py-2.5 rounded-lg text-[14px]">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="M22 4l-10 8L2 4" />
